@@ -74,8 +74,8 @@ jobs:
       - run:
           name: Update GitHub Pages
           command: |
-            git config --global user.email "no-reply@agid.gov.it"
-            git config --global user.name "AGID deploy"
+            git config --global user.email "roberto@reale.info"
+            git config --global user.name "Roberto Reale"
             
             cd /tmp/gh-pages
             git checkout gh-pages || git checkout --orphan gh-pages
